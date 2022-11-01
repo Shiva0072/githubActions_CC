@@ -3,3 +3,10 @@ https://www.youtube.com/watch?v=V-VXTashnE4&t=8s&ab_channel=RishavSinha
 https://www.youtube.com/watch?v=GehPUersUcA&list=PLmZPx_9ZF_sDlhca-LU3_-8BViHYpWVy_&index=2&ab_channel=SwashbucklingwithCode
 -just wrote CI code for github actions: install my depencies and then run 
 simple security check (where i print 2 lines at interval of 5 seconds)
+
+============================
+
+Commit: running_on_windowsServer_to_check_node_version
+we have choosed to used windows on the github server for running our project.
+(made changes in yaml file. and we can see that always the latest 
+node LTS version is installed on these machines.)
