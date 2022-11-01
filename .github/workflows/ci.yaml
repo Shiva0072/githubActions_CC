@@ -3,16 +3,19 @@ on: [push]
 jobs:
   security_check_simple:
     name: Security Check
-    runs-on: windows-2016
+    runs-on: ubuntu-latest
     steps:
       - name: Node Version on Server
         run: node -v
       - name: Clone Repository
         uses: actions/checkout@v2
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16.13.1'
       - name: Install dependencies
         run: |
           echo "Running installing packages..."
-          npm i
+          yarn add 
       - name: check for security
         run: |
           echo "Running security check 1..."

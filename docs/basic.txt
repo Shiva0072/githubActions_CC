@@ -10,3 +10,8 @@ Commit: running_on_windowsServer_to_check_node_version
 we have choosed to used windows on the github server for running our project.
 (made changes in yaml file. and we can see that always the latest 
 node LTS version is installed on these machines.)
+
+=============================
+
+commit: specified_node_version_will_be_installed 
+we are forcing the server to use the mentioned node version. 
