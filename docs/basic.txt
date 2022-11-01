@@ -13,5 +13,5 @@ node LTS version is installed on these machines.)
 
 =============================
 
-commit: specified_node_version_will_be_installed 
+commit: specified_node_version_will_be_installed_1 
 we are forcing the server to use the mentioned node version. 
