@@ -6,12 +6,11 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             -name: Clone Repository
-             uses: actions/checkout@v3
+             uses: actions/checkout@v2
             -name: Install dependencies
              run: |
                 echo "Running installing packages..."
                 npm i
-                
             -name: check for security
              run: |
                 echo "Running security check 1..."
