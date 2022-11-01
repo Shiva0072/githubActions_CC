@@ -15,7 +15,7 @@ jobs:
       - name: Install dependencies
         run: |
           echo "Running installing packages..."
-          yarn add .
+          npm ci
       - name: check for security
         run: |
           echo "Running security check 1..."
