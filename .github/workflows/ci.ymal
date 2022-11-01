@@ -1,0 +1,21 @@
+name: github_Actions_CI_basic
+on: [push]
+jobs:
+    security_check_simple:
+        name: Security Check
+        runs-on: ubuntu-latest
+        steps:
+            -name: Clone Repository
+             uses: actions/checkout@v3
+            -name: Install dependencies
+             run: |
+                echo "Running installing packages..."
+                npm i
+                
+            -name: check for security
+             run: |
+                echo "Running security check 1..."
+                sleep 5s;
+                echo "Running security check 2..."
+                sleep 5s;
+

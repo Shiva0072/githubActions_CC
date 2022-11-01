@@ -1,0 +1,5 @@
+Till first commmit : continous_integrations_added_1
+https://www.youtube.com/watch?v=V-VXTashnE4&t=8s&ab_channel=RishavSinha
+https://www.youtube.com/watch?v=GehPUersUcA&list=PLmZPx_9ZF_sDlhca-LU3_-8BViHYpWVy_&index=2&ab_channel=SwashbucklingwithCode
+-just wrote CI code for github actions: install my depencies and then run 
+simple security check (where i print 2 lines at interval of 5 seconds)
